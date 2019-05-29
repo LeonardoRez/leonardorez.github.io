@@ -1,0 +1,23 @@
+/* -----------------------------------------------------------------------------
+Author : Roshin Jose
+Email  : roshinjose1@gmail.com
+Phone  : +91 964 522 8131
+Web : roshinjose.com
+Git Repository : git@github.com:Roshinjose167/apt.git
+----------------------------------------------------------------------------- */
+
+/* ----------------------------------
+   Base styles: opinionated defaults
+   ---------------------------------- */
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  /*background-color: #02001A;*/
+}
+
+#particles-js{
+  height: 100%;
+  background: #262626;
+}
