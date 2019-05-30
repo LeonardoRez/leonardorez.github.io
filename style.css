@@ -16,8 +16,56 @@ body {
   height: 100vh;
   /*background-color: #02001A;*/
 }
-
-#particles-js{
+#particles-js {
   height: 100%;
+  width: 100%;
   background: #262626;
+  position: absolute;
+  z-index: -1;
+}
+/*#particles-js canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}*/
+.pdfs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  position: center;
+  max-height: 100vh;
+}
+.pdfs div {
+  margin: 30px;
+  max-width: 23vw;
+  z-index: 99999;
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+span {
+  margin-top: 10px;
+  text-align: center;
+  color: #000;
+}
+.titulo{
+  color: #000;
+}
+.conteudo {
+  /*margin-top: 10%;*/
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  border: 1px solid #DDDDDD;
+  /*padding: 5px;*/
+  background-color: #fff;
+  z-index: 99999;
+}
+#pdf-item:hover {
+  cursor: pointer;
 }
