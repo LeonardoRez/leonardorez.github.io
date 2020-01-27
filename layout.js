@@ -2,7 +2,7 @@ const main = document.querySelector(".pdfs");
 
 // troca pelo teu nome de usuário, repositório e a pasta onde os PDFs estão
 const owner = "leonardorez"
-const repo = "scratch-tuto"
+const repo = "public-repo"
 const path = ""
 
 fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`)
